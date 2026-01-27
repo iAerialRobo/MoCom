@@ -97,6 +97,28 @@ This repository contains the **first public version** of the MoCom codebase.
 
 ---
 
+## Hardware and Experimental Setup
+
+![MoCom Hardware and Experiment Setup](assets/hardware.png)
+
+**Figure:** Hardware platform and experimental setup used in MoCom.  
+The transmitting MAV performs predefined motion primitives, while the receiving MAV observes the motion using an event camera. The captured event stream is processed on an embedded computing platform for motion segmentation and decoding.
+
+### Hardware Platform
+
+- **Micro Air Vehicle (MAV):** Quadrotor platform with programmable flight control
+- **Vision Sensor:** Event-based camera for asynchronous motion perception
+- **Onboard Computing:** Embedded computing platform for real-time event processing and decoding
+- **Communication Mode:** Motion-based visual signaling (no RF data transmission)
+
+### Experimental Protocol
+
+- MAV motion primitives are executed in a controlled indoor environment
+- Continuous event streams are recorded during motion execution
+- Event frames are generated and segmented using temporal statistics
+- Each motion segment is classified by a lightweight Spiking Neural Network
+- Decoded symbol sequences are compared with ground-truth messages
+
 ## 📖 Citation
 
 If you use this code or dataset in an academic context, please cite our work:
