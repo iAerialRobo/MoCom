@@ -86,7 +86,7 @@ This repository contains the **first public version** of the MoCom codebase.
 - [x] End-to-end motion decoding pipeline  
 
 ### Planned Updates
-- [ ] Code refactoring and modularization  
+- [x] Code refactoring and modularization  
 - [ ] Detailed configuration files and parameter explanations  
 - [ ] Training and evaluation scripts for SNN models  
 - [ ] Visualization tools for event streams and segmentation results  
