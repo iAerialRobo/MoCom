@@ -1,17 +1,107 @@
-# MoCom: Motion-based Inter-MAV Visual Communication Using Event Vision and Spiking Neural Networks
+# MoCom  
+**Motion-based Inter-MAV Visual Communication Using Event Vision and Spiking Neural Networks**
 
-## Authors： Nengbo Zhang, Hann Woei Ho*, and Ye Zhou
+## Authors  
+**Nengbo Zhang**, **Hann Woei Ho\***, **Ye Zhou**
 
-## Introduction 
+---
 
-### Reliable communication in Micro Air Vehicle (MAV) swarms is challenging in environments, where conventional radio-based methods suffer from spectrum congestion, jamming, and high power consumption. Inspired by the waggle dance of honeybees, which efficiently communicate the location of food sources without sound or contact, we propose a novel visual communication framework for MAV swarms using motion-based signaling. In this framework, MAVs convey information, such as heading and distance, through deliberate flight patterns, which are passively captured by event cameras and interpreted using a predefined visual codebook of four motion primitives: vertical (up/down), horizontal (left/right), left-to-up-to-right, and left-to-down-to-right, representing control symbols ("start", "end", "1", "0"). To decode these signals, we design an event frame-based segmentation model and a lightweight Spiking Neural Network (SNN) for action recognition. An integrated decoding algorithm then combines segmentation and classification to robustly interpret MAV motion sequences. Experimental results validate the framework's effectiveness, which demonstrates accurate decoding and low power consumption, and highlights its potential as an energy-efficient alternative for MAV communication in constrained environments.
+## 🔍 Research Motivation
 
+![MoCom Motivation](assets/mocom_motivation.png)
 
+> **Figure:** Research motivation of MoCom.  
+> Instead of relying on conventional radio-frequency (RF) communication, MAVs encode information through deliberate motion patterns. These motion-based signals are passively observed by vision sensors and decoded as communication symbols.
 
-# Citation
-If you use the dataset and codes in an academic context, please cite our work:
-````
-Nengbo Zhang, Hann Woei Ho*, Ye Zhoue, MoCom: Motion-based Inter-MAV Visual Communication Using Event Vision and Spiking Neural Networks
+### Why MoCom?
 
-(The academic paper was submitted to IEEE Transactions on Robotics)
-````
+Reliable communication in Micro Air Vehicle (MAV) swarms remains a fundamental challenge, especially in environments where:
+
+- RF spectrum is congested or restricted  
+- Communication is vulnerable to jamming or interception  
+- Power budgets are extremely limited  
+
+Inspired by the **waggle dance of honeybees**, which conveys rich spatial information without sound or physical contact, we explore a **motion-based visual communication paradigm** for MAV swarms.
+
+The key idea is to **treat MAV motion itself as a communication carrier**, rather than as a by-product of control or navigation.
+
+---
+
+## 🧠 Introduction
+
+This project proposes **MoCom**, a motion-based inter-MAV visual communication framework built on **event cameras** and **Spiking Neural Networks (SNNs)**.
+
+In MoCom:
+
+- A transmitting MAV deliberately performs predefined **motion primitives**
+- A receiving MAV passively observes these motions using an **event camera**
+- Motion sequences are **parsed, segmented, and decoded** into symbolic messages
+
+### Motion Codebook
+
+We define a compact visual codebook composed of **four motion primitives**:
+
+| Motion Primitive | Semantic Meaning |
+|------------------|------------------|
+| Vertical (Up / Down) | Start symbol |
+| Horizontal (Left / Right) | End symbol |
+| Left → Up → Right | Binary `1` |
+| Left → Down → Right | Binary `0` |
+
+### Decoding Pipeline
+
+The decoding process consists of three stages:
+
+1. **Event-based Motion Segmentation**  
+   Continuous event streams are parsed into discrete motion segments using an event-frame-based segmentation model.
+
+2. **Lightweight SNN-based Motion Recognition**  
+   Each segmented motion primitive is classified using a lightweight Spiking Neural Network optimized for low power consumption.
+
+3. **Symbolic Decoding**  
+   Segmentation and recognition results are combined to recover the transmitted message sequence.
+
+Experimental results demonstrate that MoCom enables **robust, low-latency, and energy-efficient communication**, making it a promising alternative to RF-based links in constrained or adversarial environments.
+
+---
+
+## 📦 Code Status
+
+> ⚠️ **Important Notice**
+
+This repository contains the **first public version** of the MoCom codebase.
+
+- The current implementation focuses on **core algorithm validation**
+- Code structure and documentation are still being **actively refined**
+- Additional modules, experiments, and datasets will be released progressively
+
+---
+
+## 🛠️ To-Do List (Ongoing Development)
+
+### Core Components
+- [x] Event-based motion frame generation  
+- [x] Motion segmentation using temporal event statistics  
+- [x] Lightweight SNN for motion primitive recognition  
+- [x] End-to-end motion decoding pipeline  
+
+### Planned Updates
+- [ ] Code refactoring and modularization  
+- [ ] Detailed configuration files and parameter explanations  
+- [ ] Training and evaluation scripts for SNN models  
+- [ ] Visualization tools for event streams and segmentation results  
+- [ ] Extended experiments under varying lighting and background conditions  
+- [ ] Dataset organization and release  
+- [ ] Documentation and usage examples  
+- [ ] Benchmark comparison with RF-based and RGB-based methods  
+
+---
+
+## 📖 Citation
+
+If you use this code or dataset in an academic context, please cite our work:
+
+```text
+Nengbo Zhang, Hann Woei Ho*, Ye Zhou,
+"MoCom: Motion-based Inter-MAV Visual Communication Using Event Vision and Spiking Neural Networks",
+submitted to IEEE Transactions on Robotics.
