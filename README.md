@@ -49,7 +49,7 @@ We define a compact visual codebook composed of **four motion primitives**:
 | Left → Down → Right | Binary `0` |
 
 
-| ![](core_program/EventDataCollection/MAV_picture/vertical.gif) | ![](core_program/EventDataCollection/MAV_picture/horizontal.gif) | ![](core_program/EventDataCollection/MAV_picture/left_up_right.gif) | ![](core_program/EventDataCollection/MAV_picture/left_down_right.gif) |
+| ![](assets/left_right.gif) | ![](assets/up_down.gif) | ![](assets/vShape.gif) | ![](assets/inv_vShape.gif) |
 
 
 ### Decoding Pipeline
