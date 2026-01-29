@@ -43,11 +43,14 @@ We define a compact visual codebook composed of **four motion primitives**:
 
 | Motion Primitive | Semantic Meaning |
 |------------------|------------------|
-| ![](core_program/EventDataCollection/MAV_picture/vertical.gif) | ![](core_program/EventDataCollection/MAV_picture/horizontal.gif) | ![](core_program/EventDataCollection/MAV_picture/left_up_right.gif) | ![](core_program/EventDataCollection/MAV_picture/left_down_right.gif) |
 | Vertical (Up / Down) | Start symbol |
 | Horizontal (Left / Right) | End symbol |
 | Left → Up → Right | Binary `1` |
 | Left → Down → Right | Binary `0` |
+
+
+| ![](core_program/EventDataCollection/MAV_picture/vertical.gif) | ![](core_program/EventDataCollection/MAV_picture/horizontal.gif) | ![](core_program/EventDataCollection/MAV_picture/left_up_right.gif) | ![](core_program/EventDataCollection/MAV_picture/left_down_right.gif) |
+
 
 ### Decoding Pipeline
 
