@@ -1,0 +1,616 @@
+2.5s our result:
+GT Center Points: [165.0, 412.5, 715.0, 1010.0, 1297.5, 1590.0, 1897.5, 2202.0, 2467.5]
+Predicted Center Points: [144.0, 410.5, 705.5, 1129.5, 1129.5, 1589.0, 1888.5, 2190.0, 2471.5]
+Center Point Errors (Predicted - GT): [-21.0, -2.0, -9.5, 119.5, -168.0, -1.0, -9.0, -12.0, 4.0]
+Mean Center Error: -11.0
+GT Total Frames: [131, 256, 231, 221, 226, 241, 256, 237, 146]
+Predicted Total Frames: [147, 272, 232, 524, 524, 257, 284, 279, 182]
+Total Frame Errors (Predicted - GT): [16, 16, 1, 303, 298, 16, 28, 42, 36]
+Mean Total Frame Error: 84.0
+IoU for each action: [0.7375, 0.9411764705882353, 0.921161825726141, 0.4217557251908397, 0.3812154696132597, 0.9377431906614786, 0.9014084507042254, 0.8494623655913979, 0.8021978021978022]
+Mean IoU for each action: 0.7659579222525977
+
+Summary:
+Action 1:
+  GT: Start 100, End 230, Center 165.0, Total Frames 131
+  Predicted: Start 71, End 217, Center 144.0, Total Frames 147
+  Center Error: -21.00
+  Total Frame Error: 16.00
+  IoU: 0.7375
+Action 2:
+  GT: Start 285, End 540, Center 412.5, Total Frames 256
+  Predicted: Start 275, End 546, Center 410.5, Total Frames 272
+  Center Error: -2.00
+  Total Frame Error: 16.00
+  IoU: 0.9412
+Action 3:
+  GT: Start 600, End 830, Center 715.0, Total Frames 231
+  Predicted: Start 590, End 821, Center 705.5, Total Frames 232
+  Center Error: -9.50
+  Total Frame Error: 1.00
+  IoU: 0.9212
+Action 4:
+  GT: Start 900, End 1120, Center 1010.0, Total Frames 221
+  Predicted: Start 868, End 1391, Center 1129.5, Total Frames 524
+  Center Error: 119.50
+  Total Frame Error: 303.00
+  IoU: 0.4218
+Action 5:
+  GT: Start 1185, End 1410, Center 1297.5, Total Frames 226
+  Predicted: Start 868, End 1391, Center 1129.5, Total Frames 524
+  Center Error: -168.00
+  Total Frame Error: 298.00
+  IoU: 0.3812
+Action 6:
+  GT: Start 1470, End 1710, Center 1590.0, Total Frames 241
+  Predicted: Start 1461, End 1717, Center 1589.0, Total Frames 257
+  Center Error: -1.00
+  Total Frame Error: 16.00
+  IoU: 0.9377
+Action 7:
+  GT: Start 1770, End 2025, Center 1897.5, Total Frames 256
+  Predicted: Start 1747, End 2030, Center 1888.5, Total Frames 284
+  Center Error: -9.00
+  Total Frame Error: 28.00
+  IoU: 0.9014
+Action 8:
+  GT: Start 2084, End 2320, Center 2202.0, Total Frames 237
+  Predicted: Start 2051, End 2329, Center 2190.0, Total Frames 279
+  Center Error: -12.00
+  Total Frame Error: 42.00
+  IoU: 0.8495
+Action 9:
+  GT: Start 2395, End 2540, Center 2467.5, Total Frames 146
+  Predicted: Start 2381, End 2562, Center 2471.5, Total Frames 182
+  Center Error: 4.00
+  Total Frame Error: 36.00
+  IoU: 0.8022
+
+3.0s  our result
+GT Center Points: [275.0, 522.5, 840.0, 1150.0, 1462.5, 1759.0, 2077.0, 2405.0, 2680.0]
+Predicted Center Points: [252.0, 515.0, 832.5, 1130.5, 1448.5, 1759.0, 2066.0, 2383.5, 2691.5]
+Center Point Errors (Predicted - GT): [-23.0, -7.5, -7.5, -19.5, -14.0, 0.0, -11.0, -21.5, 11.5]
+Mean Center Error: -10.277777777777779
+GT Total Frames: [91, 236, 221, 231, 216, 229, 247, 241, 141]
+Predicted Total Frames: [171, 259, 254, 222, 236, 241, 271, 302, 190]
+Total Frame Errors (Predicted - GT): [80, 23, 33, -9, 20, 12, 24, 61, 49]
+Mean Total Frame Error: 32.55555555555556
+IoU for each action: [0.5321637426900585, 0.9111969111969112, 0.8700787401574803, 0.8414634146341463, 0.8833333333333333, 0.950207468879668, 0.9114391143911439, 0.7980132450331126, 0.7421052631578947]
+Mean IoU for each action: 0.8266668037193053
+
+Summary:
+Action 1:
+  GT: Start 230, End 320, Center 275.0, Total Frames 91
+  Predicted: Start 167, End 337, Center 252.0, Total Frames 171
+  Center Error: -23.00
+  Total Frame Error: 80.00
+  IoU: 0.5322
+Action 2:
+  GT: Start 405, End 640, Center 522.5, Total Frames 236
+  Predicted: Start 386, End 644, Center 515.0, Total Frames 259
+  Center Error: -7.50
+  Total Frame Error: 23.00
+  IoU: 0.9112
+Action 3:
+  GT: Start 730, End 950, Center 840.0, Total Frames 221
+  Predicted: Start 706, End 959, Center 832.5, Total Frames 254
+  Center Error: -7.50
+  Total Frame Error: 33.00
+  IoU: 0.8701
+Action 4:
+  GT: Start 1035, End 1265, Center 1150.0, Total Frames 231
+  Predicted: Start 1020, End 1241, Center 1130.5, Total Frames 222
+  Center Error: -19.50
+  Total Frame Error: -9.00
+  IoU: 0.8415
+Action 5:
+  GT: Start 1355, End 1570, Center 1462.5, Total Frames 216
+  Predicted: Start 1331, End 1566, Center 1448.5, Total Frames 236
+  Center Error: -14.00
+  Total Frame Error: 20.00
+  IoU: 0.8833
+Action 6:
+  GT: Start 1645, End 1873, Center 1759.0, Total Frames 229
+  Predicted: Start 1639, End 1879, Center 1759.0, Total Frames 241
+  Center Error: 0.00
+  Total Frame Error: 12.00
+  IoU: 0.9502
+Action 7:
+  GT: Start 1954, End 2200, Center 2077.0, Total Frames 247
+  Predicted: Start 1931, End 2201, Center 2066.0, Total Frames 271
+  Center Error: -11.00
+  Total Frame Error: 24.00
+  IoU: 0.9114
+Action 8:
+  GT: Start 2285, End 2525, Center 2405.0, Total Frames 241
+  Predicted: Start 2233, End 2534, Center 2383.5, Total Frames 302
+  Center Error: -21.50
+  Total Frame Error: 61.00
+  IoU: 0.7980
+Action 9:
+  GT: Start 2610, End 2750, Center 2680.0, Total Frames 141
+  Predicted: Start 2597, End 2786, Center 2691.5, Total Frames 190
+  Center Error: 11.50
+  Total Frame Error: 49.00
+  IoU: 0.7421
+
+3.5s result
+GT Center Points: [205.0, 462.5, 799.0, 1122.5, 1442.5, 1767.5, 2097.5, 2440.5, 2729.5]
+Predicted Center Points: [173.5, 470.0, 796.0, 1115.0, 1452.0, 1765.0, 2084.0, 2440.5, 2741.5]
+Center Point Errors (Predicted - GT): [-31.5, 7.5, -3.0, -7.5, 9.5, -2.5, -13.5, 0.0, 12.0]
+Mean Center Error: -3.2222222222222223
+GT Total Frames: [81, 246, 233, 236, 226, 226, 246, 252, 140]
+Predicted Total Frames: [166, 273, 255, 257, 211, 229, 271, 268, 182]
+Total Frame Errors (Predicted - GT): [85, 27, 22, 21, -15, 3, 25, 16, 42]
+Mean Total Frame Error: 25.11111111111111
+IoU for each action: [0.4879518072289157, 0.9010989010989011, 0.9137254901960784, 0.9182879377431906, 0.9166666666666666, 0.9782608695652174, 0.9007352941176471, 0.9402985074626866, 0.7692307692307693]
+Mean IoU for each action: 0.8584729159233414
+
+Summary:
+Action 1:
+  GT: Start 165, End 245, Center 205.0, Total Frames 81
+  Predicted: Start 91, End 256, Center 173.5, Total Frames 166
+  Center Error: -31.50
+  Total Frame Error: 85.00
+  IoU: 0.4880
+Action 2:
+  GT: Start 340, End 585, Center 462.5, Total Frames 246
+  Predicted: Start 334, End 606, Center 470.0, Total Frames 273
+  Center Error: 7.50
+  Total Frame Error: 27.00
+  IoU: 0.9011
+Action 3:
+  GT: Start 683, End 915, Center 799.0, Total Frames 233
+  Predicted: Start 669, End 923, Center 796.0, Total Frames 255
+  Center Error: -3.00
+  Total Frame Error: 22.00
+  IoU: 0.9137
+Action 4:
+  GT: Start 1005, End 1240, Center 1122.5, Total Frames 236
+  Predicted: Start 987, End 1243, Center 1115.0, Total Frames 257
+  Center Error: -7.50
+  Total Frame Error: 21.00
+  IoU: 0.9183
+Action 5:
+  GT: Start 1330, End 1555, Center 1442.5, Total Frames 226
+  Predicted: Start 1347, End 1557, Center 1452.0, Total Frames 211
+  Center Error: 9.50
+  Total Frame Error: -15.00
+  IoU: 0.9167
+Action 6:
+  GT: Start 1655, End 1880, Center 1767.5, Total Frames 226
+  Predicted: Start 1651, End 1879, Center 1765.0, Total Frames 229
+  Center Error: -2.50
+  Total Frame Error: 3.00
+  IoU: 0.9783
+Action 7:
+  GT: Start 1975, End 2220, Center 2097.5, Total Frames 246
+  Predicted: Start 1949, End 2219, Center 2084.0, Total Frames 271
+  Center Error: -13.50
+  Total Frame Error: 25.00
+  IoU: 0.9007
+Action 8:
+  GT: Start 2315, End 2566, Center 2440.5, Total Frames 252
+  Predicted: Start 2307, End 2574, Center 2440.5, Total Frames 268
+  Center Error: 0.00
+  Total Frame Error: 16.00
+  IoU: 0.9403
+Action 9:
+  GT: Start 2660, End 2799, Center 2729.5, Total Frames 140
+  Predicted: Start 2651, End 2832, Center 2741.5, Total Frames 182
+  Center Error: 12.00
+  Total Frame Error: 42.00
+  IoU: 0.7692
+
+ ============================================================================HMM==================================
+3.5s result
+GT Center Points: [205.0, 462.5, 799.0, 1122.5, 1442.5, 1767.5, 2097.5, 2440.5, 2729.5]
+Predicted Center Points: [193.0, 505.0, 796.0, 1116.0, 1493.0, 1811.5, 1811.5, 2477.5, 2753.5]
+Center Point Errors (Predicted - GT): [-12.0, 42.5, -3.0, -6.5, 50.5, 44.0, -286.0, 37.0, 24.0]
+Mean Center Error: -12.166666666666666
+GT Total Frames: [81, 246, 233, 236, 226, 226, 246, 252, 140]
+Predicted Total Frames: [187, 291, 185, 187, 93, 94, 94, 156, 142]
+Total Frame Errors (Predicted - GT): [106, 45, -48, -49, -133, -132, -152, -96, 2]
+Mean Total Frame Error: -50.77777777777778
+IoU for each action: [0.43315508021390375, 0.7266881028938906, 0.7939914163090128, 0.7923728813559322, 0.41150442477876104, 0.415929203539823, 0.0, 0.6190476190476191, 0.7090909090909091]
+Mean IoU for each action: 0.5446421819144279
+
+Summary:
+Action 1:
+  GT: Start 165, End 245, Center 205.0, Total Frames 81
+  Predicted: Start 100, End 286, Center 193.0, Total Frames 187
+  Center Error: -12.00
+  Total Frame Error: 106.00
+  IoU: 0.4332
+Action 2:
+  GT: Start 340, End 585, Center 462.5, Total Frames 246
+  Predicted: Start 360, End 650, Center 505.0, Total Frames 291
+  Center Error: 42.50
+  Total Frame Error: 45.00
+  IoU: 0.7267
+Action 3:
+  GT: Start 683, End 915, Center 799.0, Total Frames 233
+  Predicted: Start 704, End 888, Center 796.0, Total Frames 185
+  Center Error: -3.00
+  Total Frame Error: -48.00
+  IoU: 0.7940
+Action 4:
+  GT: Start 1005, End 1240, Center 1122.5, Total Frames 236
+  Predicted: Start 1023, End 1209, Center 1116.0, Total Frames 187
+  Center Error: -6.50
+  Total Frame Error: -49.00
+  IoU: 0.7924
+Action 5:
+  GT: Start 1330, End 1555, Center 1442.5, Total Frames 226
+  Predicted: Start 1447, End 1539, Center 1493.0, Total Frames 93
+  Center Error: 50.50
+  Total Frame Error: -133.00
+  IoU: 0.4115
+Action 6:
+  GT: Start 1655, End 1880, Center 1767.5, Total Frames 226
+  Predicted: Start 1765, End 1858, Center 1811.5, Total Frames 94
+  Center Error: 44.00
+  Total Frame Error: -132.00
+  IoU: 0.4159
+Action 7:
+  GT: Start 1975, End 2220, Center 2097.5, Total Frames 246
+  Predicted: Start 1765, End 1858, Center 1811.5, Total Frames 94
+  Center Error: -286.00
+  Total Frame Error: -152.00
+  IoU: 0.0000
+Action 8:
+  GT: Start 2315, End 2566, Center 2440.5, Total Frames 252
+  Predicted: Start 2400, End 2555, Center 2477.5, Total Frames 156
+  Center Error: 37.00
+  Total Frame Error: -96.00
+  IoU: 0.6190
+Action 9:
+  GT: Start 2660, End 2799, Center 2729.5, Total Frames 140
+  Predicted: Start 2683, End 2824, Center 2753.5, Total Frames 142
+  Center Error: 24.00
+  Total Frame Error: 2.00
+  IoU: 0.7091
+
+
+3.0s result
+GT Center Points: [275.0, 522.5, 840.0, 1150.0, 1462.5, 1759.0, 2077.0, 2405.0, 2680.0]
+Predicted Center Points: [268.5, 515.0, 813.5, 1201.5, 1433.0, 1757.0, 2150.5, 2433.5, 2688.5]
+Center Point Errors (Predicted - GT): [-6.5, -7.5, -26.5, 51.5, -29.5, -2.0, 73.5, 28.5, 8.5]
+Mean Center Error: 10.0
+GT Total Frames: [91, 236, 221, 231, 216, 229, 247, 241, 141]
+Predicted Total Frames: [138, 259, 294, 92, 267, 189, 302, 202, 112]
+Total Frame Errors (Predicted - GT): [47, 23, 73, -139, 51, -40, 55, -39, -29]
+Mean Total Frame Error: 0.2222222222222222
+IoU for each action: [0.6594202898550725, 0.9111969111969112, 0.7517006802721088, 0.39826839826839827, 0.7822878228782287, 0.8253275109170306, 0.5775862068965517, 0.772, 0.7943262411347518]
+Mean IoU for each action: 0.719123784602117
+
+Summary:
+Action 1:
+  GT: Start 230, End 320, Center 275.0, Total Frames 91
+  Predicted: Start 200, End 337, Center 268.5, Total Frames 138
+  Center Error: -6.50
+  Total Frame Error: 47.00
+  IoU: 0.6594
+Action 2:
+  GT: Start 405, End 640, Center 522.5, Total Frames 236
+  Predicted: Start 386, End 644, Center 515.0, Total Frames 259
+  Center Error: -7.50
+  Total Frame Error: 23.00
+  IoU: 0.9112
+Action 3:
+  GT: Start 730, End 950, Center 840.0, Total Frames 221
+  Predicted: Start 667, End 960, Center 813.5, Total Frames 294
+  Center Error: -26.50
+  Total Frame Error: 73.00
+  IoU: 0.7517
+Action 4:
+  GT: Start 1035, End 1265, Center 1150.0, Total Frames 231
+  Predicted: Start 1156, End 1247, Center 1201.5, Total Frames 92
+  Center Error: 51.50
+  Total Frame Error: -139.00
+  IoU: 0.3983
+Action 5:
+  GT: Start 1355, End 1570, Center 1462.5, Total Frames 216
+  Predicted: Start 1300, End 1566, Center 1433.0, Total Frames 267
+  Center Error: -29.50
+  Total Frame Error: 51.00
+  IoU: 0.7823
+Action 6:
+  GT: Start 1645, End 1873, Center 1759.0, Total Frames 229
+  Predicted: Start 1663, End 1851, Center 1757.0, Total Frames 189
+  Center Error: -2.00
+  Total Frame Error: -40.00
+  IoU: 0.8253
+Action 7:
+  GT: Start 1954, End 2200, Center 2077.0, Total Frames 247
+  Predicted: Start 2000, End 2301, Center 2150.5, Total Frames 302
+  Center Error: 73.50
+  Total Frame Error: 55.00
+  IoU: 0.5776
+Action 8:
+  GT: Start 2285, End 2525, Center 2405.0, Total Frames 241
+  Predicted: Start 2333, End 2534, Center 2433.5, Total Frames 202
+  Center Error: 28.50
+  Total Frame Error: -39.00
+  IoU: 0.7720
+Action 9:
+  GT: Start 2610, End 2750, Center 2680.0, Total Frames 141
+  Predicted: Start 2633, End 2744, Center 2688.5, Total Frames 112
+  Center Error: 8.50
+  Total Frame Error: -29.00
+  IoU: 0.7943
+
+
+2.5s result
+GT Center Points: [165.0, 412.5, 715.0, 1010.0, 1297.5, 1590.0, 1897.5, 2202.0, 2467.5]
+Predicted Center Points: [131.0, 360.5, 715.5, 1145.5, 1410.5, 1585.5, 1888.5, 2195.5, 2484.0]
+Center Point Errors (Predicted - GT): [-34.0, -52.0, 0.5, 135.5, 113.0, -4.5, -9.0, -6.5, 16.5]
+Mean Center Error: 17.72222222222222
+GT Total Frames: [131, 256, 231, 221, 226, 241, 256, 237, 146]
+Predicted Total Frames: [105, 172, 212, 492, 40, 184, 284, 310, 143]
+Total Frame Errors (Predicted - GT): [-26, -84, -19, 271, -186, -57, 28, 73, -3]
+Mean Total Frame Error: -0.3333333333333333
+IoU for each action: [0.5526315789473685, 0.6090225563909775, 0.9177489177489178, 0.4491869918699187, 0.08130081300813008, 0.7634854771784232, 0.9014084507042254, 0.7645161290322581, 0.7950310559006211]
+Mean IoU for each action: 0.6482591078645377
+
+Summary:
+Action 1:
+  GT: Start 100, End 230, Center 165.0, Total Frames 131
+  Predicted: Start 79, End 183, Center 131.0, Total Frames 105
+  Center Error: -34.00
+  Total Frame Error: -26.00
+  IoU: 0.5526
+Action 2:
+  GT: Start 285, End 540, Center 412.5, Total Frames 256
+  Predicted: Start 275, End 446, Center 360.5, Total Frames 172
+  Center Error: -52.00
+  Total Frame Error: -84.00
+  IoU: 0.6090
+Action 3:
+  GT: Start 600, End 830, Center 715.0, Total Frames 231
+  Predicted: Start 610, End 821, Center 715.5, Total Frames 212
+  Center Error: 0.50
+  Total Frame Error: -19.00
+  IoU: 0.9177
+Action 4:
+  GT: Start 900, End 1120, Center 1010.0, Total Frames 221
+  Predicted: Start 900, End 1391, Center 1145.5, Total Frames 492
+  Center Error: 135.50
+  Total Frame Error: 271.00
+  IoU: 0.4492
+Action 5:
+  GT: Start 1185, End 1410, Center 1297.5, Total Frames 226
+  Predicted: Start 1391, End 1430, Center 1410.5, Total Frames 40
+  Center Error: 113.00
+  Total Frame Error: -186.00
+  IoU: 0.0813
+Action 6:
+  GT: Start 1470, End 1710, Center 1590.0, Total Frames 241
+  Predicted: Start 1494, End 1677, Center 1585.5, Total Frames 184
+  Center Error: -4.50
+  Total Frame Error: -57.00
+  IoU: 0.7635
+Action 7:
+  GT: Start 1770, End 2025, Center 1897.5, Total Frames 256
+  Predicted: Start 1747, End 2030, Center 1888.5, Total Frames 284
+  Center Error: -9.00
+  Total Frame Error: 28.00
+  IoU: 0.9014
+Action 8:
+  GT: Start 2084, End 2320, Center 2202.0, Total Frames 237
+  Predicted: Start 2041, End 2350, Center 2195.5, Total Frames 310
+  Center Error: -6.50
+  Total Frame Error: 73.00
+  IoU: 0.7645
+Action 9:
+  GT: Start 2395, End 2540, Center 2467.5, Total Frames 146
+  Predicted: Start 2413, End 2555, Center 2484.0, Total Frames 143
+  Center Error: 16.50
+  Total Frame Error: -3.00
+  IoU: 0.7950
+
+
+============================================================================CPD=========================================
+3.5s
+GT Center Points: [205.0, 462.5, 799.0, 1122.5, 1442.5, 1767.5, 2097.5, 2440.5, 2729.5]
+Predicted Center Points: [134.0, 437.5, 949.5, 1279.5, 1604.5, 1924.5, 2264.5, 2607.0, 2867.0]
+Center Point Errors (Predicted - GT): [-71.0, -25.0, 150.5, 157.0, 162.0, 157.0, 167.0, 166.5, 137.5]
+Mean Center Error: 111.27777777777777
+GT Total Frames: [81, 246, 233, 236, 226, 226, 246, 252, 140]
+Predicted Total Frames: [171, 346, 40, 50, 60, 50, 60, 55, 35]
+Total Frame Errors (Predicted - GT): [90, 100, -193, -186, -166, -176, -186, -197, -105]
+Mean Total Frame Error: -113.22222222222223
+IoU for each action: [0.27918781725888325, 0.7109826589595376, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Mean IoU for each action: 0.11001894180204677
+
+Summary:
+Action 1:
+  GT: Start 165, End 245, Center 205.0, Total Frames 81
+  Predicted: Start 49, End 219, Center 134.0, Total Frames 171
+  Center Error: -71.00
+  Total Frame Error: 90.00
+  IoU: 0.2792
+Action 2:
+  GT: Start 340, End 585, Center 462.5, Total Frames 246
+  Predicted: Start 265, End 610, Center 437.5, Total Frames 346
+  Center Error: -25.00
+  Total Frame Error: 100.00
+  IoU: 0.7110
+Action 3:
+  GT: Start 683, End 915, Center 799.0, Total Frames 233
+  Predicted: Start 930, End 969, Center 949.5, Total Frames 40
+  Center Error: 150.50
+  Total Frame Error: -193.00
+  IoU: 0.0000
+Action 4:
+  GT: Start 1005, End 1240, Center 1122.5, Total Frames 236
+  Predicted: Start 1255, End 1304, Center 1279.5, Total Frames 50
+  Center Error: 157.00
+  Total Frame Error: -186.00
+  IoU: 0.0000
+Action 5:
+  GT: Start 1330, End 1555, Center 1442.5, Total Frames 226
+  Predicted: Start 1575, End 1634, Center 1604.5, Total Frames 60
+  Center Error: 162.00
+  Total Frame Error: -166.00
+  IoU: 0.0000
+Action 6:
+  GT: Start 1655, End 1880, Center 1767.5, Total Frames 226
+  Predicted: Start 1900, End 1949, Center 1924.5, Total Frames 50
+  Center Error: 157.00
+  Total Frame Error: -176.00
+  IoU: 0.0000
+Action 7:
+  GT: Start 1975, End 2220, Center 2097.5, Total Frames 246
+  Predicted: Start 2235, End 2294, Center 2264.5, Total Frames 60
+  Center Error: 167.00
+  Total Frame Error: -186.00
+  IoU: 0.0000
+Action 8:
+  GT: Start 2315, End 2566, Center 2440.5, Total Frames 252
+  Predicted: Start 2580, End 2634, Center 2607.0, Total Frames 55
+  Center Error: 166.50
+  Total Frame Error: -197.00
+  IoU: 0.0000
+Action 9:
+  GT: Start 2660, End 2799, Center 2729.5, Total Frames 140
+  Predicted: Start 2850, End 2884, Center 2867.0, Total Frames 35
+  Center Error: 137.50
+  Total Frame Error: -105.00
+  IoU: 0.0000
+
+3.0s
+GT Center Points: [275.0, 522.5, 840.0, 1150.0, 1462.5, 1759.0, 2077.0, 2405.0, 2680.0]
+Predicted Center Points: [157.0, 496.5, 882.0, 1197.0, 1433.0, 1776.5, 2237.0, 2567.0, 2714.5]
+Center Point Errors (Predicted - GT): [-118.0, -26.0, 42.0, 47.0, -29.5, 17.5, 160.0, 162.0, 34.5]
+Mean Center Error: 32.166666666666664
+GT Total Frames: [91, 236, 221, 231, 216, 229, 247, 241, 141]
+Predicted Total Frames: [187, 406, 245, 45, 267, 306, 45, 45, 230]
+Total Frame Errors (Predicted - GT): [96, 170, 24, -186, 51, 77, -202, -196, 89]
+Mean Total Frame Error: -8.555555555555555
+IoU for each action: [0.08171206225680934, 0.5812807881773399, 0.6945454545454546, 0.19480519480519481, 0.7822878228782287, 0.7483660130718954, 0.0, 0.0, 0.6130434782608696]
+Mean IoU for each action: 0.4106712015550881
+
+Summary:
+Action 1:
+  GT: Start 230, End 320, Center 275.0, Total Frames 91
+  Predicted: Start 64, End 250, Center 157.0, Total Frames 187
+  Center Error: -118.00
+  Total Frame Error: 96.00
+  IoU: 0.0817
+Action 2:
+  GT: Start 405, End 640, Center 522.5, Total Frames 236
+  Predicted: Start 294, End 699, Center 496.5, Total Frames 406
+  Center Error: -26.00
+  Total Frame Error: 170.00
+  IoU: 0.5813
+Action 3:
+  GT: Start 730, End 950, Center 840.0, Total Frames 221
+  Predicted: Start 760, End 1004, Center 882.0, Total Frames 245
+  Center Error: 42.00
+  Total Frame Error: 24.00
+  IoU: 0.6945
+Action 4:
+  GT: Start 1035, End 1265, Center 1150.0, Total Frames 231
+  Predicted: Start 1175, End 1219, Center 1197.0, Total Frames 45
+  Center Error: 47.00
+  Total Frame Error: -186.00
+  IoU: 0.1948
+Action 5:
+  GT: Start 1355, End 1570, Center 1462.5, Total Frames 216
+  Predicted: Start 1300, End 1566, Center 1433.0, Total Frames 267
+  Center Error: -29.50
+  Total Frame Error: 51.00
+  IoU: 0.7823
+Action 6:
+  GT: Start 1645, End 1873, Center 1759.0, Total Frames 229
+  Predicted: Start 1624, End 1929, Center 1776.5, Total Frames 306
+  Center Error: 17.50
+  Total Frame Error: 77.00
+  IoU: 0.7484
+Action 7:
+  GT: Start 1954, End 2200, Center 2077.0, Total Frames 247
+  Predicted: Start 2215, End 2259, Center 2237.0, Total Frames 45
+  Center Error: 160.00
+  Total Frame Error: -202.00
+  IoU: 0.0000
+Action 8:
+  GT: Start 2285, End 2525, Center 2405.0, Total Frames 241
+  Predicted: Start 2545, End 2589, Center 2567.0, Total Frames 45
+  Center Error: 162.00
+  Total Frame Error: -196.00
+  IoU: 0.0000
+Action 9:
+  GT: Start 2610, End 2750, Center 2680.0, Total Frames 141
+  Predicted: Start 2600, End 2829, Center 2714.5, Total Frames 230
+  Center Error: 34.50
+  Total Frame Error: 89.00
+  IoU: 0.6130
+
+2.5s
+GT Center Points: [165.0, 412.5, 715.0, 1010.0, 1297.5, 1590.0, 1897.5, 2202.0, 2467.5]
+Predicted Center Points: [17.0, 559.5, 715.5, 1142.0, 1434.5, 1585.5, 1888.5, 2195.5, 2661.0]
+Center Point Errors (Predicted - GT): [-148.0, 147.0, 0.5, 132.0, 137.0, -4.5, -9.0, -6.5, 193.5]
+Mean Center Error: 49.111111111111114
+GT Total Frames: [131, 256, 231, 221, 226, 241, 256, 237, 146]
+Predicted Total Frames: [35, 30, 212, 35, 30, 184, 284, 310, 163]
+Total Frame Errors (Predicted - GT): [-96, -226, -19, -186, -196, -57, 28, 73, 17]
+Mean Total Frame Error: -73.55555555555556
+IoU for each action: [0.0, 0.0, 0.9177489177489178, 0.0, 0.0, 0.7634854771784232, 0.9014084507042254, 0.7645161290322581, 0.0]
+Mean IoU for each action: 0.3719065527404249
+
+Summary:
+Action 1:
+  GT: Start 100, End 230, Center 165.0, Total Frames 131
+  Predicted: Start 0, End 34, Center 17.0, Total Frames 35
+  Center Error: -148.00
+  Total Frame Error: -96.00
+  IoU: 0.0000
+Action 2:
+  GT: Start 285, End 540, Center 412.5, Total Frames 256
+  Predicted: Start 545, End 574, Center 559.5, Total Frames 30
+  Center Error: 147.00
+  Total Frame Error: -226.00
+  IoU: 0.0000
+Action 3:
+  GT: Start 600, End 830, Center 715.0, Total Frames 231
+  Predicted: Start 610, End 821, Center 715.5, Total Frames 212
+  Center Error: 0.50
+  Total Frame Error: -19.00
+  IoU: 0.9177
+Action 4:
+  GT: Start 900, End 1120, Center 1010.0, Total Frames 221
+  Predicted: Start 1125, End 1159, Center 1142.0, Total Frames 35
+  Center Error: 132.00
+  Total Frame Error: -186.00
+  IoU: 0.0000
+Action 5:
+  GT: Start 1185, End 1410, Center 1297.5, Total Frames 226
+  Predicted: Start 1420, End 1449, Center 1434.5, Total Frames 30
+  Center Error: 137.00
+  Total Frame Error: -196.00
+  IoU: 0.0000
+Action 6:
+  GT: Start 1470, End 1710, Center 1590.0, Total Frames 241
+  Predicted: Start 1494, End 1677, Center 1585.5, Total Frames 184
+  Center Error: -4.50
+  Total Frame Error: -57.00
+  IoU: 0.7635
+Action 7:
+  GT: Start 1770, End 2025, Center 1897.5, Total Frames 256
+  Predicted: Start 1747, End 2030, Center 1888.5, Total Frames 284
+  Center Error: -9.00
+  Total Frame Error: 28.00
+  IoU: 0.9014
+Action 8:
+  GT: Start 2084, End 2320, Center 2202.0, Total Frames 237
+  Predicted: Start 2041, End 2350, Center 2195.5, Total Frames 310
+  Center Error: -6.50
+  Total Frame Error: 73.00
+  IoU: 0.7645
+Action 9:
+  GT: Start 2395, End 2540, Center 2467.5, Total Frames 146
+  Predicted: Start 2580, End 2742, Center 2661.0, Total Frames 163
+  Center Error: 193.50
+  Total Frame Error: 17.00
+  IoU: 0.0000
