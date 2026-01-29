@@ -114,11 +114,11 @@ The transmitting MAV performs predefined motion primitives, while the receiving 
 
 - [Crazyflie Bolt 1.1 Flight Controller](https://www.bitcraze.io/products/crazyflie-bolt-1-1/)
   
-- [JeVois A33 Machine Vision Camera](https://www.jevoisinc.com/products/jevois-a33-smart-machine-vision-camera?variant=36249051018)
+- [SpikeJelly](https://www.jevoisinc.com/products/jevois-a33-smart-machine-vision-camera?variant=36249051018)
   
-- [Loco Positioning Deck](https://www.bitcraze.io/documentation/system/positioning/loco-positioning-system/)
+- [Lighthouse](https://www.bitcraze.io/documentation/system/positioning/loco-positioning-system/)
   
-- [Flow Deck V2](https://www.bitcraze.io/products/flow-deck-v2/)
+- [HTC sensor](https://www.bitcraze.io/products/flow-deck-v2/)
 
 ### Experimental Protocol
 
