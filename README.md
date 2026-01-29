@@ -91,13 +91,13 @@ This repository contains the **first public version** of the MoCom codebase.
 
 ### Planned Updates
 - [x] Code refactoring and modularization  
-- [ ] Detailed configuration files and parameter explanations  
-- [ ] Training and evaluation scripts for SNN models  
-- [ ] Visualization tools for event streams and segmentation results  
-- [ ] Extended experiments under varying lighting and background conditions  
+- [x] Detailed configuration files and parameter explanations  
+- [x] Training and evaluation scripts for SNN models  
+- [x] Visualization tools for event streams and segmentation results  
+- [x] Extended experiments under varying lighting and background conditions  
 - [ ] Dataset organization and release  
-- [ ] Documentation and usage examples  
-- [ ] Benchmark comparison with RF-based and RGB-based methods  
+- [x] Documentation and usage examples  
+- [x] Benchmark comparison with RF-based and RGB-based methods  
 
 ---
 
