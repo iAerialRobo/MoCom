@@ -89,15 +89,13 @@ This repository contains the **first public version** of the MoCom codebase.
 - [x] Lightweight SNN for motion primitive recognition  
 - [x] End-to-end motion decoding pipeline  
 
-### Planned Updates
-- [x] Code refactoring and modularization  
-- [x] Detailed configuration files and parameter explanations  
-- [x] Training and evaluation scripts for SNN models  
-- [x] Visualization tools for event streams and segmentation results  
-- [x] Extended experiments under varying lighting and background conditions  
-- [ ] Dataset organization and release  
-- [x] Documentation and usage examples  
-- [x] Benchmark comparison with RF-based and RGB-based methods  
+### testing data and spiking neural network model
+there are three segments flying data for crazyflie. And we can use those data to observe the whole process of MAV action communication. 
+https://drive.google.com/file/d/1sirZJJKcP5PJrLp_wXc89SJcwIcHROzz/view?usp=drive_link, 
+https://drive.google.com/file/d/1S06L0cAxJdmJT-XeyaTBURjngpZdYzXw/view?usp=drive_link, 
+https://drive.google.com/file/d/1O_NrjizUlF94YxMVMW7LtrY0rGtCoWu4/view?usp=drive_link
+
+THe model is in the model folder in our code library. 
 
 ---
 
