@@ -1,0 +1,682 @@
+/home/zhangnb/miniconda3/bin/conda run -n UAV_tro --no-capture-output python /home/zhangnb/Tro/source/finetuneMSE.py 
+Line 1: Added 1vShape_action_1.npz with label 2
+Line 2: Added 1vShape_action_2.npz with label 1
+Line 3: Added 1vShape_action_3.npz with label 1
+Line 4: Added 1vShape_action_4.npz with label 1
+Line 5: Added 1vShape_action_5.npz with label 1
+Line 6: Added 1vShape_action_6.npz with label 4
+Line 7: Added 1vShape_action_7.npz with label 1
+Line 8: Added 1vShape_action_8.npz with label 3
+Line 9: Added 2vShape_action_1.npz with label 2
+Line 10: Added 2vShape_action_2.npz with label 1
+Line 11: Added 2vShape_action_3.npz with label 1
+Line 12: Added 2vShape_action_4.npz with label 1
+Line 13: Added 2vShape_action_5.npz with label 1
+Line 14: Added 2vShape_action_6.npz with label 4
+Line 15: Added 2vShape_action_7.npz with label 1
+Line 16: Added 2vShape_action_8.npz with label 3
+Line 17: Added 3vShape_action_1.npz with label 2
+Line 18: Added 3vShape_action_2.npz with label 1
+Line 19: Added 3vShape_action_3.npz with label 1
+Line 20: Added 3vShape_action_4.npz with label 1
+Line 21: Added 3vShape_action_5.npz with label 1
+Line 22: Added 3vShape_action_6.npz with label 4
+Line 23: Added 3vShape_action_7.npz with label 1
+Line 24: Added 3vShape_action_8.npz with label 3
+Read 24 valid files and 24 labels from /home/zhangnb/Tro/data/recResultSUM/finetune.txt
+Labels type after reading: <class 'numpy.ndarray'>, Content: [2 1 1 1 1 4 1 3 2 1 1 1 1 4 1 3 2 1 1 1 1 4 1 3]
+Minority labels type: <class 'list'>, Content: [np.int64(2), np.int64(4), np.int64(3), np.int64(2), np.int64(4), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]
+Phase 1: Training on 9 minority class samples (classes [2, 3, 4])...
+Phase 1, Epoch [1/10], Loss: 0.2052, Accuracy: 22.22%, Time: 3.02s
+Phase 1, Epoch [2/10], Loss: 0.2003, Accuracy: 33.33%, Time: 0.79s
+Phase 1, Epoch [3/10], Loss: 0.1139, Accuracy: 55.56%, Time: 0.79s
+Phase 1, Epoch [4/10], Loss: 0.1674, Accuracy: 33.33%, Time: 0.71s
+Phase 1, Epoch [5/10], Loss: 0.1237, Accuracy: 77.78%, Time: 0.71s
+Phase 1, Epoch [6/10], Loss: 0.1387, Accuracy: 44.44%, Time: 0.71s
+Phase 1, Epoch [7/10], Loss: 0.1323, Accuracy: 44.44%, Time: 0.70s
+Phase 1, Epoch [8/10], Loss: 0.1165, Accuracy: 66.67%, Time: 0.71s
+Phase 1, Epoch [9/10], Loss: 0.1519, Accuracy: 22.22%, Time: 0.70s
+Phase 1, Epoch [10/10], Loss: 0.1310, Accuracy: 33.33%, Time: 0.71s
+Phase 2: Training on all 24 samples...
+Labels type before sampler: <class 'numpy.ndarray'>, Content: [2 1 1 1 1 4 1 3 2 1 1 1 1 4 1 3 2 1 1 1 1 4 1 3]
+Phase 2, Epoch [1/500], Loss: 0.2198, Accuracy: 29.17%, Time: 2.39s
+Phase 2, Epoch [2/500], Loss: 0.1856, Accuracy: 29.17%, Time: 1.95s
+Phase 2, Epoch [3/500], Loss: 0.1885, Accuracy: 12.50%, Time: 1.88s
+Phase 2, Epoch [4/500], Loss: 0.1739, Accuracy: 25.00%, Time: 1.89s
+Phase 2, Epoch [5/500], Loss: 0.1681, Accuracy: 33.33%, Time: 1.92s
+Phase 2, Epoch [6/500], Loss: 0.1458, Accuracy: 20.83%, Time: 1.91s
+Phase 2, Epoch [7/500], Loss: 0.1278, Accuracy: 66.67%, Time: 1.91s
+Phase 2, Epoch [8/500], Loss: 0.1222, Accuracy: 62.50%, Time: 1.90s
+Phase 2, Epoch [9/500], Loss: 0.1109, Accuracy: 66.67%, Time: 1.86s
+Phase 2, Epoch [10/500], Loss: 0.1008, Accuracy: 62.50%, Time: 1.85s
+Phase 2, Epoch [11/500], Loss: 0.1000, Accuracy: 66.67%, Time: 1.86s
+Phase 2, Epoch [12/500], Loss: 0.0834, Accuracy: 66.67%, Time: 1.86s
+Phase 2, Epoch [13/500], Loss: 0.0855, Accuracy: 75.00%, Time: 1.87s
+Phase 2, Epoch [14/500], Loss: 0.0784, Accuracy: 75.00%, Time: 1.88s
+Phase 2, Epoch [15/500], Loss: 0.0759, Accuracy: 87.50%, Time: 1.91s
+Phase 2, Epoch [16/500], Loss: 0.0694, Accuracy: 75.00%, Time: 1.87s
+Phase 2, Epoch [17/500], Loss: 0.0771, Accuracy: 70.83%, Time: 1.87s
+Phase 2, Epoch [18/500], Loss: 0.0729, Accuracy: 70.83%, Time: 1.88s
+Phase 2, Epoch [19/500], Loss: 0.0700, Accuracy: 79.17%, Time: 1.87s
+Phase 2, Epoch [20/500], Loss: 0.0571, Accuracy: 79.17%, Time: 1.87s
+Phase 2, Epoch [21/500], Loss: 0.0631, Accuracy: 87.50%, Time: 1.87s
+Phase 2, Epoch [22/500], Loss: 0.0623, Accuracy: 83.33%, Time: 1.87s
+Phase 2, Epoch [23/500], Loss: 0.0710, Accuracy: 83.33%, Time: 1.93s
+Phase 2, Epoch [24/500], Loss: 0.0597, Accuracy: 83.33%, Time: 1.93s
+Phase 2, Epoch [25/500], Loss: 0.0592, Accuracy: 87.50%, Time: 1.94s
+Phase 2, Epoch [26/500], Loss: 0.0611, Accuracy: 83.33%, Time: 1.90s
+Phase 2, Epoch [27/500], Loss: 0.0594, Accuracy: 79.17%, Time: 1.89s
+Phase 2, Epoch [28/500], Loss: 0.0530, Accuracy: 87.50%, Time: 1.88s
+Phase 2, Epoch [29/500], Loss: 0.0537, Accuracy: 83.33%, Time: 1.93s
+Phase 2, Epoch [30/500], Loss: 0.0553, Accuracy: 83.33%, Time: 1.98s
+Phase 2, Epoch [31/500], Loss: 0.0509, Accuracy: 87.50%, Time: 1.95s
+Phase 2, Epoch [32/500], Loss: 0.0486, Accuracy: 87.50%, Time: 1.93s
+Phase 2, Epoch [33/500], Loss: 0.0449, Accuracy: 87.50%, Time: 1.92s
+Phase 2, Epoch [34/500], Loss: 0.0490, Accuracy: 87.50%, Time: 1.94s
+Phase 2, Epoch [35/500], Loss: 0.0418, Accuracy: 87.50%, Time: 1.94s
+Phase 2, Epoch [36/500], Loss: 0.0461, Accuracy: 87.50%, Time: 1.93s
+Phase 2, Epoch [37/500], Loss: 0.0407, Accuracy: 87.50%, Time: 1.95s
+Phase 2, Epoch [38/500], Loss: 0.0411, Accuracy: 87.50%, Time: 1.98s
+Phase 2, Epoch [39/500], Loss: 0.0437, Accuracy: 87.50%, Time: 1.95s
+Phase 2, Epoch [40/500], Loss: 0.0375, Accuracy: 87.50%, Time: 1.94s
+Phase 2, Epoch [41/500], Loss: 0.0370, Accuracy: 87.50%, Time: 1.93s
+Phase 2, Epoch [42/500], Loss: 0.0377, Accuracy: 87.50%, Time: 1.93s
+Phase 2, Epoch [43/500], Loss: 0.0409, Accuracy: 87.50%, Time: 1.94s
+Phase 2, Epoch [44/500], Loss: 0.0388, Accuracy: 87.50%, Time: 1.93s
+Phase 2, Epoch [45/500], Loss: 0.0341, Accuracy: 87.50%, Time: 1.94s
+Phase 2, Epoch [46/500], Loss: 0.0337, Accuracy: 91.67%, Time: 1.93s
+Phase 2, Epoch [47/500], Loss: 0.0312, Accuracy: 87.50%, Time: 1.95s
+Phase 2, Epoch [48/500], Loss: 0.0399, Accuracy: 87.50%, Time: 1.95s
+Phase 2, Epoch [49/500], Loss: 0.0389, Accuracy: 87.50%, Time: 2.00s
+Phase 2, Epoch [50/500], Loss: 0.0380, Accuracy: 87.50%, Time: 1.95s
+Phase 2, Epoch [51/500], Loss: 0.0317, Accuracy: 87.50%, Time: 1.95s
+Phase 2, Epoch [52/500], Loss: 0.0326, Accuracy: 87.50%, Time: 1.95s
+Phase 2, Epoch [53/500], Loss: 0.0280, Accuracy: 87.50%, Time: 1.95s
+Phase 2, Epoch [54/500], Loss: 0.0293, Accuracy: 91.67%, Time: 1.96s
+Phase 2, Epoch [55/500], Loss: 0.0332, Accuracy: 87.50%, Time: 1.93s
+Phase 2, Epoch [56/500], Loss: 0.0264, Accuracy: 95.83%, Time: 1.96s
+Phase 2, Epoch [57/500], Loss: 0.0249, Accuracy: 87.50%, Time: 1.95s
+Phase 2, Epoch [58/500], Loss: 0.0279, Accuracy: 91.67%, Time: 1.95s
+Phase 2, Epoch [59/500], Loss: 0.0284, Accuracy: 91.67%, Time: 1.93s
+Phase 2, Epoch [60/500], Loss: 0.0242, Accuracy: 95.83%, Time: 1.94s
+Phase 2, Epoch [61/500], Loss: 0.0310, Accuracy: 87.50%, Time: 1.94s
+Phase 2, Epoch [62/500], Loss: 0.0275, Accuracy: 87.50%, Time: 1.92s
+Phase 2, Epoch [63/500], Loss: 0.0288, Accuracy: 87.50%, Time: 1.93s
+Phase 2, Epoch [64/500], Loss: 0.0231, Accuracy: 91.67%, Time: 1.95s
+Phase 2, Epoch [65/500], Loss: 0.0312, Accuracy: 95.83%, Time: 1.94s
+Phase 2, Epoch [66/500], Loss: 0.0271, Accuracy: 91.67%, Time: 1.96s
+Phase 2, Epoch [67/500], Loss: 0.0258, Accuracy: 91.67%, Time: 1.98s
+Phase 2, Epoch [68/500], Loss: 0.0252, Accuracy: 95.83%, Time: 1.90s
+Phase 2, Epoch [69/500], Loss: 0.0279, Accuracy: 91.67%, Time: 1.88s
+Phase 2, Epoch [70/500], Loss: 0.0210, Accuracy: 95.83%, Time: 1.87s
+Phase 2, Epoch [71/500], Loss: 0.0216, Accuracy: 95.83%, Time: 1.88s
+Phase 2, Epoch [72/500], Loss: 0.0216, Accuracy: 95.83%, Time: 1.88s
+Phase 2, Epoch [73/500], Loss: 0.0225, Accuracy: 95.83%, Time: 1.87s
+Fine-tuned model saved to /home/zhangnb/Tro/data/recResultSUM/checkpoint_finetuned_100.pth
+Phase 2, Epoch [74/500], Loss: 0.0214, Accuracy: 100.00%, Time: 1.90s
+Fine-tuned model saved to /home/zhangnb/Tro/data/recResultSUM/checkpoint_finetuned.pth
+Loaded fine-tuned model from /home/zhangnb/Tro/data/recResultSUM/checkpoint_finetuned_100.pth
+
+Processing 24 .npz files for testing...
+
+File: /home/zhangnb/Tro/data/recResultSUM/1vShape_action_1.npz
+Original Class: left_right (Class 2)
+Predicted Class: left_right (Class 2)
+Class Probabilities:
+  Negative: 0.1493
+  inv_vShape: 0.1650
+  left_right: 0.3813
+  up_down: 0.1531
+  vShape: 0.1512
+
+File: /home/zhangnb/Tro/data/recResultSUM/1vShape_action_2.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1537
+  inv_vShape: 0.3804
+  left_right: 0.1586
+  up_down: 0.1537
+  vShape: 0.1537
+
+File: /home/zhangnb/Tro/data/recResultSUM/1vShape_action_3.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1515
+  inv_vShape: 0.3941
+  left_right: 0.1515
+  up_down: 0.1515
+  vShape: 0.1515
+
+File: /home/zhangnb/Tro/data/recResultSUM/1vShape_action_4.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1503
+  inv_vShape: 0.3986
+  left_right: 0.1503
+  up_down: 0.1503
+  vShape: 0.1503
+
+File: /home/zhangnb/Tro/data/recResultSUM/1vShape_action_5.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1524
+  inv_vShape: 0.3893
+  left_right: 0.1524
+  up_down: 0.1524
+  vShape: 0.1534
+
+File: /home/zhangnb/Tro/data/recResultSUM/1vShape_action_6.npz
+Original Class: vShape (Class 4)
+Predicted Class: vShape (Class 4)
+Class Probabilities:
+  Negative: 0.1596
+  inv_vShape: 0.2487
+  left_right: 0.1596
+  up_down: 0.1786
+  vShape: 0.2535
+
+File: /home/zhangnb/Tro/data/recResultSUM/1vShape_action_7.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1544
+  inv_vShape: 0.3797
+  left_right: 0.1544
+  up_down: 0.1544
+  vShape: 0.1573
+
+File: /home/zhangnb/Tro/data/recResultSUM/1vShape_action_8.npz
+Original Class: up_down (Class 3)
+Predicted Class: up_down (Class 3)
+Class Probabilities:
+  Negative: 0.1521
+  inv_vShape: 0.1620
+  left_right: 0.1620
+  up_down: 0.3650
+  vShape: 0.1590
+
+File: /home/zhangnb/Tro/data/recResultSUM/2vShape_action_1.npz
+Original Class: left_right (Class 2)
+Predicted Class: left_right (Class 2)
+Class Probabilities:
+  Negative: 0.1535
+  inv_vShape: 0.1875
+  left_right: 0.3502
+  up_down: 0.1544
+  vShape: 0.1544
+
+File: /home/zhangnb/Tro/data/recResultSUM/2vShape_action_2.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1530
+  inv_vShape: 0.3859
+  left_right: 0.1550
+  up_down: 0.1530
+  vShape: 0.1530
+
+File: /home/zhangnb/Tro/data/recResultSUM/2vShape_action_3.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1488
+  inv_vShape: 0.4046
+  left_right: 0.1488
+  up_down: 0.1488
+  vShape: 0.1488
+
+File: /home/zhangnb/Tro/data/recResultSUM/2vShape_action_4.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1488
+  inv_vShape: 0.4046
+  left_right: 0.1488
+  up_down: 0.1488
+  vShape: 0.1488
+
+File: /home/zhangnb/Tro/data/recResultSUM/2vShape_action_5.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1602
+  inv_vShape: 0.2938
+  left_right: 0.1602
+  up_down: 0.1653
+  vShape: 0.2204
+
+File: /home/zhangnb/Tro/data/recResultSUM/2vShape_action_6.npz
+Original Class: vShape (Class 4)
+Predicted Class: vShape (Class 4)
+Class Probabilities:
+  Negative: 0.1619
+  inv_vShape: 0.2119
+  left_right: 0.1824
+  up_down: 0.1735
+  vShape: 0.2704
+
+File: /home/zhangnb/Tro/data/recResultSUM/2vShape_action_7.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1481
+  inv_vShape: 0.4027
+  left_right: 0.1481
+  up_down: 0.1481
+  vShape: 0.1529
+
+File: /home/zhangnb/Tro/data/recResultSUM/2vShape_action_8.npz
+Original Class: up_down (Class 3)
+Predicted Class: up_down (Class 3)
+Class Probabilities:
+  Negative: 0.1482
+  inv_vShape: 0.1482
+  left_right: 0.1482
+  up_down: 0.3905
+  vShape: 0.1648
+
+File: /home/zhangnb/Tro/data/recResultSUM/3vShape_action_1.npz
+Original Class: left_right (Class 2)
+Predicted Class: left_right (Class 2)
+Class Probabilities:
+  Negative: 0.1495
+  inv_vShape: 0.1591
+  left_right: 0.3770
+  up_down: 0.1582
+  vShape: 0.1562
+
+File: /home/zhangnb/Tro/data/recResultSUM/3vShape_action_2.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1522
+  inv_vShape: 0.3911
+  left_right: 0.1522
+  up_down: 0.1522
+  vShape: 0.1522
+
+File: /home/zhangnb/Tro/data/recResultSUM/3vShape_action_3.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1488
+  inv_vShape: 0.4046
+  left_right: 0.1488
+  up_down: 0.1488
+  vShape: 0.1488
+
+File: /home/zhangnb/Tro/data/recResultSUM/3vShape_action_4.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1534
+  inv_vShape: 0.3109
+  left_right: 0.1534
+  up_down: 0.1534
+  vShape: 0.2289
+
+File: /home/zhangnb/Tro/data/recResultSUM/3vShape_action_5.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1500
+  inv_vShape: 0.4001
+  left_right: 0.1500
+  up_down: 0.1500
+  vShape: 0.1500
+
+File: /home/zhangnb/Tro/data/recResultSUM/3vShape_action_6.npz
+Original Class: vShape (Class 4)
+Predicted Class: vShape (Class 4)
+Class Probabilities:
+  Negative: 0.1603
+  inv_vShape: 0.2071
+  left_right: 0.1738
+  up_down: 0.1827
+  vShape: 0.2761
+
+File: /home/zhangnb/Tro/data/recResultSUM/3vShape_action_7.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1526
+  inv_vShape: 0.3896
+  left_right: 0.1526
+  up_down: 0.1526
+  vShape: 0.1526
+
+File: /home/zhangnb/Tro/data/recResultSUM/3vShape_action_8.npz
+Original Class: up_down (Class 3)
+Predicted Class: up_down (Class 3)
+Class Probabilities:
+  Negative: 0.1523
+  inv_vShape: 0.1523
+  left_right: 0.1523
+  up_down: 0.3818
+  vShape: 0.1612
+
+Process finished with exit code 0   上面的训练日记是有问题的。
+
+
+
+========================================================================================================================================
+下面是正确的训练日记：
+(UAV_tro) zhangnb@luofei:~/Tro/source$ python finetuneMSE.py
+Line 1: Added 1vShape_action_1.npz with label 2
+Line 2: Added 1vShape_action_2.npz with label 1
+Line 3: Added 1vShape_action_3.npz with label 1
+Line 4: Added 1vShape_action_4.npz with label 1
+Line 5: Added 1vShape_action_5.npz with label 1
+Line 6: Added 1vShape_action_6.npz with label 4
+Line 7: Added 1vShape_action_7.npz with label 1
+Line 8: Added 1vShape_action_8.npz with label 3
+Line 9: Added 2vShape_action_1.npz with label 2
+Line 10: Added 2vShape_action_2.npz with label 1
+Line 11: Added 2vShape_action_3.npz with label 1
+Line 12: Added 2vShape_action_4.npz with label 1
+Line 13: Added 2vShape_action_5.npz with label 4
+Line 14: Added 2vShape_action_6.npz with label 4
+Line 15: Added 2vShape_action_7.npz with label 1
+Line 16: Added 2vShape_action_8.npz with label 3
+Line 17: Added 3vShape_action_1.npz with label 2
+Line 18: Added 3vShape_action_2.npz with label 1
+Line 19: Added 3vShape_action_3.npz with label 1
+Line 20: Added 3vShape_action_4.npz with label 4
+Line 21: Added 3vShape_action_5.npz with label 1
+Line 22: Added 3vShape_action_6.npz with label 4
+Line 23: Added 3vShape_action_7.npz with label 1
+Line 24: Added 3vShape_action_8.npz with label 3
+Read 24 valid files and 24 labels from /home/zhangnb/Tro/data/recResultSUM/finetune.txt
+Labels type after reading: <class 'numpy.ndarray'>, Content: [2 1 1 1 1 4 1 3 2 1 1 1 4 4 1 3 2 1 1 4 1 4 1 3]
+Minority labels type: <class 'list'>, Content: [np.int64(2), np.int64(4), np.int64(3), np.int64(2), np.int64(4), np.int64(4), np.int64(3), np.int64(2), np.int64(4), np.int64(4), np.int64(3)]
+Phase 1: Training on 11 minority class samples (classes [2, 3, 4])...
+Phase 1, Epoch [1/10], Loss: 0.1702, Accuracy: 18.18%, Time: 3.16s
+Phase 1, Epoch [2/10], Loss: 0.1383, Accuracy: 54.55%, Time: 0.94s
+Phase 1, Epoch [3/10], Loss: 0.1233, Accuracy: 36.36%, Time: 0.95s
+Phase 1, Epoch [4/10], Loss: 0.1532, Accuracy: 27.27%, Time: 0.88s
+Phase 1, Epoch [5/10], Loss: 0.1244, Accuracy: 45.45%, Time: 0.88s
+Phase 1, Epoch [6/10], Loss: 0.1339, Accuracy: 54.55%, Time: 0.89s
+Phase 1, Epoch [7/10], Loss: 0.1397, Accuracy: 45.45%, Time: 0.88s
+Phase 1, Epoch [8/10], Loss: 0.1204, Accuracy: 63.64%, Time: 0.89s
+Phase 1, Epoch [9/10], Loss: 0.1418, Accuracy: 36.36%, Time: 0.89s
+Phase 1, Epoch [10/10], Loss: 0.1465, Accuracy: 36.36%, Time: 0.87s
+Phase 2: Training on all 24 samples...
+Labels type before sampler: <class 'numpy.ndarray'>, Content: [2 1 1 1 1 4 1 3 2 1 1 1 4 4 1 3 2 1 1 4 1 4 1 3]
+Phase 2, Epoch [1/500], Loss: 0.2059, Accuracy: 16.67%, Time: 2.52s
+Phase 2, Epoch [2/500], Loss: 0.1844, Accuracy: 33.33%, Time: 2.00s
+Phase 2, Epoch [3/500], Loss: 0.1859, Accuracy: 16.67%, Time: 1.92s
+Phase 2, Epoch [4/500], Loss: 0.1738, Accuracy: 25.00%, Time: 1.92s
+Phase 2, Epoch [5/500], Loss: 0.1746, Accuracy: 37.50%, Time: 1.92s
+Phase 2, Epoch [6/500], Loss: 0.1555, Accuracy: 41.67%, Time: 1.93s
+Phase 2, Epoch [7/500], Loss: 0.1463, Accuracy: 45.83%, Time: 1.92s
+Phase 2, Epoch [8/500], Loss: 0.1221, Accuracy: 50.00%, Time: 1.94s
+Phase 2, Epoch [9/500], Loss: 0.1085, Accuracy: 54.17%, Time: 1.93s
+Phase 2, Epoch [10/500], Loss: 0.1049, Accuracy: 58.33%, Time: 1.93s
+Phase 2, Epoch [11/500], Loss: 0.1012, Accuracy: 62.50%, Time: 1.93s
+Phase 2, Epoch [12/500], Loss: 0.0968, Accuracy: 62.50%, Time: 1.94s
+Phase 2, Epoch [13/500], Loss: 0.0914, Accuracy: 66.67%, Time: 1.93s
+Phase 2, Epoch [14/500], Loss: 0.0797, Accuracy: 70.83%, Time: 1.92s
+Phase 2, Epoch [15/500], Loss: 0.0913, Accuracy: 70.83%, Time: 1.92s
+Phase 2, Epoch [16/500], Loss: 0.0927, Accuracy: 70.83%, Time: 1.90s
+Phase 2, Epoch [17/500], Loss: 0.0808, Accuracy: 66.67%, Time: 1.92s
+Phase 2, Epoch [18/500], Loss: 0.0751, Accuracy: 70.83%, Time: 1.91s
+Phase 2, Epoch [19/500], Loss: 0.0738, Accuracy: 75.00%, Time: 1.92s
+Phase 2, Epoch [20/500], Loss: 0.0632, Accuracy: 79.17%, Time: 1.91s
+Phase 2, Epoch [21/500], Loss: 0.0612, Accuracy: 79.17%, Time: 1.92s
+Phase 2, Epoch [22/500], Loss: 0.0647, Accuracy: 79.17%, Time: 1.94s
+Phase 2, Epoch [23/500], Loss: 0.0578, Accuracy: 83.33%, Time: 1.93s
+Phase 2, Epoch [24/500], Loss: 0.0547, Accuracy: 83.33%, Time: 1.92s
+Phase 2, Epoch [25/500], Loss: 0.0535, Accuracy: 87.50%, Time: 1.91s
+Phase 2, Epoch [26/500], Loss: 0.0477, Accuracy: 87.50%, Time: 1.92s
+Phase 2, Epoch [27/500], Loss: 0.0521, Accuracy: 87.50%, Time: 1.91s
+Fine-tuned model saved to /home/zhangnb/Tro/data/recResultSUM/checkpoint_finetuned_100.pth
+Phase 2, Epoch [28/500], Loss: 0.0456, Accuracy: 100.00%, Time: 1.92s
+Fine-tuned model saved to /home/zhangnb/Tro/data/recResultSUM/checkpoint_finetuned.pth
+Loaded fine-tuned model from /home/zhangnb/Tro/data/recResultSUM/checkpoint_finetuned_100.pth
+
+Processing 24 .npz files for testing...
+
+File: /home/zhangnb/Tro/data/recResultSUM/1vShape_action_1.npz
+Original Class: left_right (Class 2)
+Predicted Class: left_right (Class 2)
+Class Probabilities:
+  Negative: 0.1538
+  inv_vShape: 0.1962
+  left_right: 0.3155
+  up_down: 0.1678
+  vShape: 0.1668
+
+File: /home/zhangnb/Tro/data/recResultSUM/1vShape_action_2.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1544
+  inv_vShape: 0.3372
+  left_right: 0.1749
+  up_down: 0.1553
+  vShape: 0.1782
+
+File: /home/zhangnb/Tro/data/recResultSUM/1vShape_action_3.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1537
+  inv_vShape: 0.3618
+  left_right: 0.1566
+  up_down: 0.1537
+  vShape: 0.1742
+
+File: /home/zhangnb/Tro/data/recResultSUM/1vShape_action_4.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1524
+  inv_vShape: 0.3567
+  left_right: 0.1534
+  up_down: 0.1524
+  vShape: 0.1850
+
+File: /home/zhangnb/Tro/data/recResultSUM/1vShape_action_5.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1564
+  inv_vShape: 0.3503
+  left_right: 0.1584
+  up_down: 0.1564
+  vShape: 0.1784
+
+File: /home/zhangnb/Tro/data/recResultSUM/1vShape_action_6.npz
+Original Class: vShape (Class 4)
+Predicted Class: vShape (Class 4)
+Class Probabilities:
+  Negative: 0.1593
+  inv_vShape: 0.2468
+  left_right: 0.1603
+  up_down: 0.1675
+  vShape: 0.2660
+
+File: /home/zhangnb/Tro/data/recResultSUM/1vShape_action_7.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1550
+  inv_vShape: 0.3449
+  left_right: 0.1639
+  up_down: 0.1550
+  vShape: 0.1812
+
+File: /home/zhangnb/Tro/data/recResultSUM/1vShape_action_8.npz
+Original Class: up_down (Class 3)
+Predicted Class: up_down (Class 3)
+Class Probabilities:
+  Negative: 0.1638
+  inv_vShape: 0.1658
+  left_right: 0.1754
+  up_down: 0.3217
+  vShape: 0.1733
+
+File: /home/zhangnb/Tro/data/recResultSUM/2vShape_action_1.npz
+Original Class: left_right (Class 2)
+Predicted Class: left_right (Class 2)
+Class Probabilities:
+  Negative: 0.1545
+  inv_vShape: 0.2262
+  left_right: 0.3015
+  up_down: 0.1634
+  vShape: 0.1545
+
+File: /home/zhangnb/Tro/data/recResultSUM/2vShape_action_2.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1584
+  inv_vShape: 0.3460
+  left_right: 0.1676
+  up_down: 0.1594
+  vShape: 0.1686
+
+File: /home/zhangnb/Tro/data/recResultSUM/2vShape_action_3.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1587
+  inv_vShape: 0.3317
+  left_right: 0.1689
+  up_down: 0.1587
+  vShape: 0.1821
+
+File: /home/zhangnb/Tro/data/recResultSUM/2vShape_action_4.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1590
+  inv_vShape: 0.3324
+  left_right: 0.1651
+  up_down: 0.1610
+  vShape: 0.1824
+
+File: /home/zhangnb/Tro/data/recResultSUM/2vShape_action_5.npz
+Original Class: vShape (Class 4)
+Predicted Class: vShape (Class 4)
+Class Probabilities:
+  Negative: 0.1626
+  inv_vShape: 0.2381
+  left_right: 0.1667
+  up_down: 0.1775
+  vShape: 0.2550
+
+File: /home/zhangnb/Tro/data/recResultSUM/2vShape_action_6.npz
+Original Class: vShape (Class 4)
+Predicted Class: vShape (Class 4)
+Class Probabilities:
+  Negative: 0.1631
+  inv_vShape: 0.2315
+  left_right: 0.1780
+  up_down: 0.1747
+  vShape: 0.2526
+
+File: /home/zhangnb/Tro/data/recResultSUM/2vShape_action_7.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1590
+  inv_vShape: 0.3323
+  left_right: 0.1650
+  up_down: 0.1590
+  vShape: 0.1847
+
+File: /home/zhangnb/Tro/data/recResultSUM/2vShape_action_8.npz
+Original Class: up_down (Class 3)
+Predicted Class: up_down (Class 3)
+Class Probabilities:
+  Negative: 0.1584
+  inv_vShape: 0.1594
+  left_right: 0.1665
+  up_down: 0.3438
+  vShape: 0.1718
+
+File: /home/zhangnb/Tro/data/recResultSUM/3vShape_action_1.npz
+Original Class: left_right (Class 2)
+Predicted Class: left_right (Class 2)
+Class Probabilities:
+  Negative: 0.1531
+  inv_vShape: 0.1905
+  left_right: 0.3221
+  up_down: 0.1671
+  vShape: 0.1671
+
+File: /home/zhangnb/Tro/data/recResultSUM/3vShape_action_2.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1589
+  inv_vShape: 0.3407
+  left_right: 0.1630
+  up_down: 0.1671
+  vShape: 0.1703
+
+File: /home/zhangnb/Tro/data/recResultSUM/3vShape_action_3.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1577
+  inv_vShape: 0.3402
+  left_right: 0.1587
+  up_down: 0.1577
+  vShape: 0.1856
+
+File: /home/zhangnb/Tro/data/recResultSUM/3vShape_action_4.npz
+Original Class: vShape (Class 4)
+Predicted Class: vShape (Class 4)
+Class Probabilities:
+  Negative: 0.1621
+  inv_vShape: 0.2343
+  left_right: 0.1672
+  up_down: 0.1725
+  vShape: 0.2639
+
+File: /home/zhangnb/Tro/data/recResultSUM/3vShape_action_5.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1583
+  inv_vShape: 0.3545
+  left_right: 0.1583
+  up_down: 0.1593
+  vShape: 0.1696
+
+File: /home/zhangnb/Tro/data/recResultSUM/3vShape_action_6.npz
+Original Class: vShape (Class 4)
+Predicted Class: vShape (Class 4)
+Class Probabilities:
+  Negative: 0.1652
+  inv_vShape: 0.2329
+  left_right: 0.1726
+  up_down: 0.1860
+  vShape: 0.2433
+
+File: /home/zhangnb/Tro/data/recResultSUM/3vShape_action_7.npz
+Original Class: inv_vShape (Class 1)
+Predicted Class: inv_vShape (Class 1)
+Class Probabilities:
+  Negative: 0.1608
+  inv_vShape: 0.3404
+  left_right: 0.1638
+  up_down: 0.1659
+  vShape: 0.1690
+
+File: /home/zhangnb/Tro/data/recResultSUM/3vShape_action_8.npz
+Original Class: up_down (Class 3)
+Predicted Class: up_down (Class 3)
+Class Probabilities:
+  Negative: 0.1587
+  inv_vShape: 0.1607
+  left_right: 0.1637
+  up_down: 0.3553
+  vShape: 0.1617
+
